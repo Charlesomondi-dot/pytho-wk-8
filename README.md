@@ -1,3 +1,23 @@
+## How to Set Up Locally
+1. Clone or download this repository to your computer.
+2. Place the `metadata.csv` file (WHO COVID-19 global summary) in the project folder.
+3. Open a terminal in the project folder.
+4. Install the required Python packages:
+   ```powershell
+   pip install -r requirements.txt
+   ```
+5. Start the Streamlit app:
+   ```powershell
+   streamlit run app.py
+   ```
+6. Open the local URL (e.g., `http://localhost:8501`) in your browser to view and interact with the dashboard.
+## How It Works Locally
+When you run the app locally, Streamlit launches a web dashboard in your browser. You can:
+- Filter COVID-19 data by WHO region using the sidebar
+- View bar charts of the top 10 countries by cumulative cases and deaths
+- Browse a sample data table for quick insights
+
+All features are interactive and update instantly as you change filters.
 # WHO COVID-19 Global Data Explorer
 
 This project is a simple Streamlit dashboard for exploring global COVID-19 case and death statistics by country and region, using WHO data.
