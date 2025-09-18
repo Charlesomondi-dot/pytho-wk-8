@@ -21,10 +21,10 @@ This project is a simple Streamlit dashboard for exploring global COVID-19 case 
 4. After running the command, Streamlit will display a local URL in the terminal (e.g., `http://localhost:8501`).
 5. Open this URL in your web browser to access the dashboard.
 
+
 ## How to Access on Streamlit Cloud
-If you have deployed this project on [Streamlit Cloud](https://streamlit.io/cloud):
-1. Share the public Streamlit Cloud URL (e.g., `https://your-username-your-app.streamlit.app`).
-2. Anyone with the link can access the dashboard online without installing anything locally.
+This project is deployed at: [https://covida.streamlit.app/](https://covida.streamlit.app/)
+Anyone with this link can access the dashboard online without installing anything locally.
 
 ## File Structure
 - `app.py` — Streamlit dashboard code
